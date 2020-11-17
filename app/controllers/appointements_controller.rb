@@ -1,0 +1,3 @@
+class ApppointementsController <ApplicationRecord
+
+end
