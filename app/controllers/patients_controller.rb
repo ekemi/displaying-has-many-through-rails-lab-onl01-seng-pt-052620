@@ -1,0 +1,4 @@
+class PatientsController <ApplicationRecord
+
+
+end
