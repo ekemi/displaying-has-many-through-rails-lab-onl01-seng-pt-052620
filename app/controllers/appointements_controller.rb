@@ -1,4 +1,4 @@
-class AppointmentsController< ApplicationController 
+class AppointmentsController < ApplicationController
 
 
   def show
