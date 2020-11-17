@@ -1,6 +1,8 @@
 <h1>Doctors</h1>
+
 <ul>
-  <% @doctors.each do |t| %>
-  <li> <%= link_to t.name, doctor_path(t)%></li>
-  <%end%>
-  <u/>
+
+<% @doctors.each do |d| %>
+  <li><%=link_to d.name, doctor_path(d)%> - <%=pluralize(d.patients.count, "patients")%></li>
+<%end%>
+</ul>
