@@ -1,0 +1,7 @@
+<h1>Patients</h1>
+
+<ul>
+  <%patients.each |t|%>
+  <l>Name<%=link_to t.name, patient_path(t)%></li>
+    <%end%>
+  </ul>
